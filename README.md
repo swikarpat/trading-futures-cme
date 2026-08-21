@@ -12,7 +12,7 @@ An automated quantitative trading strategy designed in Pine Script v5 for Tradin
 | **Asset Class** | Index Futures (`CME:NQ`, `CME:MNQ`) |
 | **Primary Timeframe** | 5-Minute / 15-Minute |
 | **Trading Session** | Regular Trading Hours (RTH: 09:30 - 16:00 EST) |
-| **Pine Script Version** | v5 |
+| **Pine Script Version** | v6 |
 | **Order Execution** | Market on Close / Limit with Slippage modeling |
 
 ---
