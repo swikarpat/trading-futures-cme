@@ -1,11 +1,8 @@
 * text=auto
 
-# Pine Script files - explicitly set language
-*.pine linguist-language=Pine Script
-*.pinescript linguist-language=Pine Script
+# Pine Script files - mark as vendored to ensure detection
+*.pine linguist-detectable=true
+*.pinescript linguist-detectable=true
 
-# Documentation
+# Markdown files
 *.md text eol=lf
-
-# Explicitly mark the main trading script
-trading_futures.pinescript linguist-language=Pine Script -diff
