@@ -1,4 +1,3 @@
-cat << 'EOF' > README.md
 # TradingView Futures Pine Script Strategy
 
 An automated quantitative trading strategy designed in Pine Script v5 for TradingView, optimized for NASDAQ-100 E-mini (`NQ`) and Micro E-mini (`MNQ`) futures contracts.
