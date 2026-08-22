@@ -1,3 +1,4 @@
 *.pine linguist-detectable=true
 *.pine linguist-language=Python
 *.pinescript linguist-language=Python
+*.pine linguist-language=Pine
