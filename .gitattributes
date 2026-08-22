@@ -1,13 +1,11 @@
-*.pine linguist-detectable=true
-*.pine linguist-language=Pinescript
-*.pinescript linguist-language=Pinescript
-*.pine linguist-language=Pine
+* text=auto
 
+# Pine Script files - explicitly set language
+*.pine linguist-language=Pine Script
+*.pinescript linguist-language=Pine Script
 
-{
-  "owner": "swikarpat",
-  "repo": "trading-futures-cme",
-  "path": ".gitattributes",
-  "content": "* text=auto\n\n# Pine Script files\n*.pine linguist-language=Pine Script\n*.pinescript linguist-language=Pine Script\n\n# Ensure all text files are treated as such\n*.txt text\n*.md text\n",
-  "message": "Add .gitattributes to configure Pine Script as primary language"
-}
+# Documentation
+*.md text eol=lf
+
+# Explicitly mark the main trading script
+trading_futures.pinescript linguist-language=Pine Script -diff
