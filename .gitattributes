@@ -1,8 +1,6 @@
-* text=auto
-
-# Pine Script files - mark as vendored to ensure detection
 *.pine linguist-detectable=true
-*.pinescript linguist-detectable=true
-
-# Markdown files
-*.md text eol=lf
+*.pine linguist-language=Python
+*.pinescript linguist-language=Python
+*.pine linguist-language=Python
+*.pinescript linguist-language=Python
+*.pine linguist-language=Python
